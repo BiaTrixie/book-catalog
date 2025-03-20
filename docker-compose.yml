@@ -23,7 +23,7 @@ services:
   frontend:
     build: ./book-frontend/book-frontend
     ports:
-      - "4200:4200"
+      - "4200:80"
     depends_on:
       - backend
 volumes:

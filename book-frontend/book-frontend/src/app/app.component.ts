@@ -7,7 +7,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
-  imports: [CommonModule, FormsModule, BrowserModule],
+  imports: [ FormsModule, CommonModule],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
